@@ -1,0 +1,116 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.admin-dashboard {
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar {
+  width: 200px;
+  background-color: #343a40;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: 0;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin-top: auto;
+}
+
+.sidebar li {
+  margin-bottom: 10px;
+}
+
+.sidebar button {
+  background-color: #c9c2c2;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  width: 100%;
+  text-align: left;
+}
+
+.sidebar button:hover {
+  background-color: #ffffff;
+}
+
+.main-content {
+  flex: 1;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  background-color: #868585;
+  padding: 5px;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  width: 93%;
+}
+
+.welcome-message {
+  color: #0f0f0f;
+  margin: 0;
+  text-align: justify;
+  height: 8vh;
+}
+
+.user-dropdown {
+  position: relative;
+  cursor: pointer;
+}
+
+.user-info {
+  padding: 5px;
+}
+
+.user-info:hover {
+  background-color: rgba(210, 206, 206, 0.1);
+  border-radius: 2px;
+}
+
+.project-list {
+  margin-top: 10px;
+}
+
+.project-cards {
+  display: flex;
+justify-content:left;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.project-card {
+  background-color: #fff;
+  padding: 20px;
+  width: calc(33.33% - 20px);
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.dropdown-content {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #ebe5e5;
+  box-shadow: 0 0 20px rgba(235, 229, 229, 0.1);
+  border-radius: 5px;
+  padding: 10px;
+  z-index: 1;
+  white-space: nowrap;
+  max-width: 200px;
+}

@@ -1,0 +1,81 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    width: 250vh;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    /*background: linear-gradient(to bottom right, #3366cc, #4a90e2);*/
+    position: relative;
+  }
+  
+  .container {
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 250vh;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    width: 400px;
+    z-index: 1; /* Ensure the container is above the background image */
+  }
+  
+  h2 {
+    color: #343a40;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #495057;
+  }
+  
+  input {
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ced4da;
+    border-radius: 6px;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  button {
+    background-color: #106bcd;
+    color: #fff;
+    padding: 14px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 18px;
+    width: 100%;
+  }
+  
+  
+  .error {
+    color: #dc3545;
+    margin-top: 6px;
+    font-size: 14px;
+  }
+  
+  /* Additional styles for a background image */
+  body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background: url('https://t4.ftcdn.net/jpg/02/55/77/03/360_F_255770374_rbmJO9gkkIhMBcyVPc3iW016BCLDvcWc.jpg') center center/cover no-repeat; /* Replace with your image path */
+    opacity: 0.4; /* Adjust the opacity for transparency */
+  }
+
+  

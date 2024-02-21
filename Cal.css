@@ -1,0 +1,16 @@
+/* Cal.css */
+.react-calendar__tile {
+    background-color: #cd1818; /* Set your preferred background color */
+    color: #141313; /* Set your preferred text color */
+  }
+
+  /* Your existing CSS styles */
+
+.custom-tile {
+    /* Add your custom styles for calendar tiles here */
+    background-color: #cb4f4f;
+    color: #28c158;
+    border-radius: 50%;
+  }
+  
+  
